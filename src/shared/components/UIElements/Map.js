@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import './Map.css'
 
-// AIzaSyAtTMJGR0u_WseoR1tUpWDzDI1xh7wB0Pc
 const Map = ({ center, zoom, className, style }) => {
   const mapRef = useRef()
   useEffect(() => {
